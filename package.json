@@ -1,9 +1,9 @@
 {
-  "name": "@tailwindcss/forms",
+  "name": "@simfatic/tailwindcss-forms",
   "version": "0.3.3",
   "main": "src/index.js",
   "license": "MIT",
-  "repository": "https://github.com/tailwindlabs/tailwindcss-forms",
+  "repository": "https://github.com/simfatic/tailwindcss-forms",
   "publishConfig": {
     "access": "public"
   },
@@ -18,7 +18,8 @@
     "serve": "live-server .",
     "watch": "chokidar \"./src/**/*.js\" -c \"npm run build\"",
     "build": "node scripts/build.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "release": "yarn publish  --registry http://localhost:4873 --no-git-tag-version"
   },
   "peerDependencies": {
     "tailwindcss": ">=2.0.0"

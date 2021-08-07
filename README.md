@@ -1,4 +1,6 @@
-# @tailwindcss/forms
+# @simfatic/tailwindcss-forms 
+
+Forked from @tailwindcss/forms and added some alternate styles
 
 A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
 
